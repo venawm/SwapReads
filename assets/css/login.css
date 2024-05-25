@@ -1,7 +1,7 @@
 :root {
   /*font*/
-  --ff-philosopher: 'Philosopher', sans-serif;
-  --ff-poppins: 'Poppins', sans-serif;
+  --ff-philosopher: "Philosopher", sans-serif;
+  --ff-poppins: "Poppins", sans-serif;
 
   /*colors*/
   --chinese-violet_30: hsla(304, 14%, 46%, 0.3);
@@ -33,7 +33,6 @@ body {
   /* gap: 1px; */
 }
 
-
 p {
   font-size: 1rem;
 }
@@ -56,10 +55,10 @@ p {
   font-size: 2rem;
   margin-left: 2rem;
 }
-.pass-container{
+.pass-container {
   position: relative;
 }
-.fa{
+.fa {
   position: absolute;
   top: 45%;
   right: 10px;
@@ -111,11 +110,11 @@ p {
 } */
 
 .form {
-	display: flex;
-    flex-direction: column;
-    gap: 6px;
-    padding: 35px;
-    margin-top: -30px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 35px;
+  margin-top: -30px;
 }
 
 .note {
@@ -166,7 +165,6 @@ p {
   /* margin-bottom: 10rem;
   margin-left: 4rem; */
 }
-
 
 /*checkbox to switch from sign up to login*/
 #chk {
@@ -256,6 +254,7 @@ label {
   font-size: 1.5rem;
   font-weight: bold;
   margin-top: 2px;
+  padding: 1px;
 }
 
 #google-signup {
@@ -279,9 +278,8 @@ label {
   background-color: #ca1107;
 }
 
-
 /*Register*/
-#register{
+#register {
   font-size: medium;
   color: var(--old-rose);
   background-color: #eee;
@@ -297,7 +295,7 @@ label {
 
 .register {
   background: #eee;
-  width:100%;
+  width: 100%;
   font-family: var(--ff-poppins);
   border-radius: 90% / 10%;
   transform: translateY(4%);
@@ -305,14 +303,13 @@ label {
   margin-bottom: 45px;
   padding-bottom: 45px;
 }
-#register{
+#register {
   color: var(--old-rose);
 }
 #register:hover {
   color: white;
   background-color: var(--old-rose);
 }
-
 
 .register label {
   color: var(--old-rose);
@@ -384,7 +381,7 @@ label {
   padding-left: 92%;
 }
 
-#register{
+#register {
   color: #d54b33;
 }
 
@@ -435,45 +432,45 @@ label {
 
   .main {
     width: 100%;
-    height:420px;
+    height: 420px;
   }
-  .register{
+  .register {
     width: 100%;
-	margin-top: -30px;
+    margin-top: -40px;
     margin-left: 0%;
     padding-left: 0%;
     margin-bottom: 0px;
     padding-bottom: 45px;
   }
-  .register .form label{
-    margin-top:0px;
+  .register .form label {
+    margin-top: 0px;
   }
-  #email{
+  #email {
     margin-top: 10px;
     margin-bottom: 10px;
   }
-  #register{
+  #register {
     margin-top: 20px;
     margin-bottom: 25px;
   }
 }
 
-.input-box{
+.input-box {
   position: relative;
 }
 
 #eyeicon {
-    position: absolute;
-    top: 69%;
-    right: 15px;
-    transform: translateY(-50%);
-    padding: 5px;
-    border-radius: 50%;
-    cursor: pointer;
-    transition: all 0.3s;
-    z-index: 1;
-    height: 35px;
-    width: 40px;
+  position: absolute;
+  top: 69%;
+  right: 15px;
+  transform: translateY(-50%);
+  padding: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s;
+  z-index: 1;
+  height: 35px;
+  width: 40px;
 }
 
 #eyeicon-login {
@@ -487,44 +484,48 @@ label {
 }
 
 .progress {
-    height: 3px !important;
+  height: 3px !important;
 }
 
 .progress-bar-danger {
-    background-color: #e90f10;
+  background-color: #e90f10;
 }
-.progress-bar-warning{
-    background-color: #ffad00;
+.progress-bar-warning {
+  background-color: #ffad00;
 }
-.progress-bar-success{
-    background-color: #02b502;
+.progress-bar-success {
+  background-color: #02b502;
 }
 
-.list-unstyled li{
-	font-size: 18px;
+.list-unstyled li {
+  font-size: 18px;
 }
-.fa-circle{
-    font-size: 6px;
+.fa-circle {
+  font-size: 6px;
 }
-.fa-check{
-    color: #02b502;
+.fa-check {
+  color: #02b502;
 }
-@media (max-width : 796px) {
-	.list-unstyled li{
-		font-size: 12px;
-	}
-	.form {
-		gap:0;
-	}
-	#register{
-		margin-top: 1px;
-	}
-	/* #or{
+@media (max-width: 796px) {
+  .list-unstyled li {
+    font-size: 12px;
+  }
+  .form {
+    gap: 0;
+  }
+  #register {
+    margin-top: -20px;
+  }
+
+  /* #or{
 		margin-top: -10px;
 	} */
-	#google-sign-in{
-		width: 80%;
-	}
+  #google-sign-in {
+    width: 80%;
+  }
+  #google-signup {
+    width: 80%;
+  }
 }
 
 @media (max-width: 480px) {
@@ -535,7 +536,7 @@ label {
   .form button {
     font-size: 1rem;
   }
-  .register{
+  .register {
     width: 100%;
     margin-left: 0%;
     padding-left: 0%;
@@ -554,51 +555,51 @@ body.dark-mode {
   color: #ffffff;
 }
 
-.note h1.dark-mode{
+.note h1.dark-mode {
   color: #e6e6e6;
 }
-.note h2.dark-mode{
+.note h2.dark-mode {
   color: #b6b6b6;
 }
-.navbar.dark-mode{
+.navbar.dark-mode {
   background-color: #1e1c1c;
 }
-.main.dark-mode{
+.main.dark-mode {
   box-shadow: 0 0 20px rgba(230, 230, 230, 0.2);
   background-color: hsl(0, 0%, 16%);
 }
-#login label .dark-mode{
-  color:#e6e6e6;
+#login label .dark-mode {
+  color: #e6e6e6;
 }
-#login.dark-mode{
+#login.dark-mode {
   background-color: #373737;
 }
-#login.dark-mode:hover{
+#login.dark-mode:hover {
   color: var(--old-rose);
 }
-.dark-mode .register{
-  background:#e0dede;
+.dark-mode .register {
+  background: #e0dede;
   background-color: #e0dede;
 }
-.register input.dark-mode{
+.register input.dark-mode {
   background-color: #c3c3c3;
 }
-#register.dark-mode{
+#register.dark-mode {
   background-color: #373737;
   color: #ededed;
 }
-#register.dark-mode:hover{
+#register.dark-mode:hover {
   color: var(--old-rose);
 }
 
-.register label.dark-mode{
-  color:#373737;
+.register label.dark-mode {
+  color: #373737;
 }
 
 .social-icons-container {
   display: flex;
   gap: 30px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   margin: 32px 0;
   justify-content: center;
 }
@@ -703,7 +704,6 @@ body.dark-mode {
   font-weight: bold;
   display: inline-block;
   width: 1em;
-
 }
 
 .list-unstyled li:hover {
